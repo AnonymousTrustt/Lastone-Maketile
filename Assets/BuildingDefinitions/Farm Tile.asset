@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513ea1c711cc841eab34e87c040b3ced, type: 3}
+  m_Name: Farm Tile
+  m_EditorClassIdentifier: Assembly-CSharp::BuildingDefinition
+  buildingId: crop_farm
+  buildingName: Crop Farm
+  sectorType: 0
+  prefab: {fileID: 6638851810964576846, guid: cdaea5db27daf4a038acfe2263aecedc, type: 3}
+  footprint: {x: 1, y: 1}
+  autoEstimateFootprint: 0
+  anchorMode: 2
+  placementOffset: {x: 0, y: 0}
+  autoAlignSpriteToFootprint: 1
+  sortingOrderOffset: 0
+  cost: 20
+  moneyChange: 0
+  energyChange: -4
+  pollutionChange: 6
+  happinessChange: 8
+  providesSupport: 0
+  providesSupportType: 0
+  supportCapacity: 0
+  requiresSupport: 1
+  requiresSupportType: 1
+  supportRequiredAmount: 1
